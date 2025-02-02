@@ -18,6 +18,6 @@ export class AppComponent {
   gpPhoto1: string = "https://lh3.googleusercontent.com/pw/AP1GczPb8FTHaSqU4CHXL0uNz2LGydKxbeYU5sjHLgKljyncWRE9nLcS_OyzyLzjknlfSh-ZV4kGNlmXBSE_KuMvN8h7brRtHKxPTVKCfr7l8sESVATm6QddXztrDxlQvj-LyAi8qzL0KbKhy0HgTa2iywLh=w494-h878-s-no-gm";
 
   ngOnInit() {
-    this.photos.push(this.gpPhoto1, this.gpPhoto2, this.gpPhoto3, this.gpPhoto4);
+    this.photos.push(this.gpPhoto2, this.gpPhoto3, this.gpPhoto4,this.gpPhoto1);
   }
 }
