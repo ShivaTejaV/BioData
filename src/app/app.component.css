@@ -50,9 +50,9 @@ header h1 {
 }
 
 .gallery-photo {
-    width: auto;
+    width: 100%;
     /* Full width of the container */
-    max-width: 100%;
+    max-width: 500px;
     /* Limit the maximum width for images */
     height: auto;
     /* Maintain aspect ratio */

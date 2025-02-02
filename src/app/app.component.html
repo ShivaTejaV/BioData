@@ -6,8 +6,7 @@
   <div class="additional-photos">
     <h2>Photos</h2>
     <div class="photo-gallery">
-        <!-- Displaying images dynamically -->
-        <div *ngFor="let photo of photos">
+        <div *ngFor="let photo of localPhotos">
           <img [src]="photo" alt="Image" style="width: 100%; height: auto; margin-bottom: 10px;" />
         </div>
     </div>
