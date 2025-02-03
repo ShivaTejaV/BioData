@@ -22,10 +22,10 @@ export class AppComponent {
   blue:string="assets/images/blue.jpg";
   black:string="assets/images/black.png";
   white:string="assets/images/white.jpg";
-  // red:string="assets/images/red.jpg";
+  red:string="assets/images/red.jpg";
 
   ngOnInit() {
     this.gpPhotos.push(this.gpPhoto2, this.gpPhoto3, this.gpPhoto4,this.gpPhoto1);
-    this.localPhotos.push(this.black,this.blue,this.white);
+    this.localPhotos.push(this.white,this.red,this.black,this.blue);
   }
 }
