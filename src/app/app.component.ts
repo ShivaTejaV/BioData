@@ -26,6 +26,6 @@ export class AppComponent {
 
   ngOnInit() {
     this.gpPhotos.push(this.gpPhoto2, this.gpPhoto3, this.gpPhoto4,this.gpPhoto1);
-    this.localPhotos.push(this.white,this.red,this.black,this.blue);
+    this.localPhotos.push(this.red,this.black,this.white);
   }
 }
